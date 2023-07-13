@@ -1,0 +1,12 @@
+clc;
+clear all;
+i=imread('D:\IMAGE PROCESSING PRAITICALS\lenababy.jpg');
+a=double(i);
+c=255;
+b=c-a; 
+subplot(2,2,1); 
+imshow(uint8(a)); 
+title('original image'); 
+subplot(2,2,2); 
+imshow(uint8(b));
+title('image negative');
